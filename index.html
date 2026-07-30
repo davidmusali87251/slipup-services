@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>סלים דוד מוסלי — הדפסת תלת ממד · עיצוב מוצר · פיתוח אתרים | אילת</title>
+<meta name="description" content="שירותי הדפסת תלת ממד בהזמנה אישית, עיצוב מוצר ופיתוח אתרים. אילת, ישראל.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0e0f12; --panel:#16181d; --line:#262a31;
+    --text:#e8e6e1; --muted:#9a978f; --accent:#d4a373;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:'Heebo',system-ui,-apple-system,sans-serif;
+    line-height:1.7; min-height:100vh;
+    display:flex; flex-direction:column;
+  }
+  .wrap{width:min(920px,92%); margin:0 auto}
+  header{padding:64px 0 40px}
+  .kicker{
+    color:var(--accent); font-weight:600; letter-spacing:.12em;
+    font-size:.85rem; margin-bottom:14px;
+  }
+  h1{font-weight:800; font-size:clamp(1.7rem,4.5vw,2.7rem); line-height:1.25}
+  .sub{color:var(--muted); margin-top:12px; font-size:1.05rem; font-weight:300}
+  .rule{height:1px; background:var(--line); margin:8px 0 40px}
+  .cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:18px}
+  .card{
+    background:var(--panel); border:1px solid var(--line); border-radius:14px;
+    padding:26px 24px;
+  }
+  .card .num{color:var(--accent); font-weight:800; font-size:.8rem; letter-spacing:.15em}
+  .card h2{font-size:1.15rem; font-weight:600; margin:10px 0 8px}
+  .card p{color:var(--muted); font-size:.95rem; font-weight:300}
+  .contact{
+    margin:48px 0 24px; background:var(--panel); border:1px solid var(--line);
+    border-radius:14px; padding:30px 26px; text-align:center;
+  }
+  .contact h3{font-weight:600; font-size:1.2rem; margin-bottom:6px}
+  .contact p{color:var(--muted); font-weight:300; margin-bottom:18px}
+  .btn{
+    display:inline-block; background:var(--accent); color:#141210;
+    font-weight:600; padding:11px 30px; border-radius:9px; text-decoration:none;
+    transition:opacity .15s;
+  }
+  .btn:hover{opacity:.85}
+  footer{
+    margin-top:auto; border-top:1px solid var(--line);
+    padding:22px 0; color:var(--muted); font-size:.85rem; font-weight:300;
+  }
+  footer .en{direction:ltr; text-align:left; font-size:.8rem; opacity:.75; margin-top:4px}
+  .foot-flex{display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px}
+</style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="kicker">SLIPUP · אילת</div>
+    <h1>סלים דוד מוסלי</h1>
+    <p class="sub">הדפסת תלת ממד בהזמנה אישית · עיצוב מוצר · פיתוח אתרים</p>
+  </header>
+
+  <main class="wrap">
+    <div class="rule"></div>
+    <section class="cards">
+      <div class="card">
+        <div class="num">01</div>
+        <h2>הדפסת תלת ממד בהזמנה</h2>
+        <p>הדפסה פיזית של קבצים דיגיטליים לפי דרישת הלקוח: אבות־טיפוס, חלקי חילוף וחפצים פונקציונליים. עבודה ב־PLA ו־PETG, כולל הכנת הקובץ להדפסה.</p>
+      </div>
+      <div class="card">
+        <div class="num">02</div>
+        <h2>עיצוב מוצר</h2>
+        <p>בניית מודל תלת ממדי לפי הזמנה ומסירת קבצי ייצור מוכנים להדפסה — שירות ביצוע מעשי, מהרעיון של הלקוח ועד קובץ מוכן.</p>
+      </div>
+      <div class="card">
+        <div class="num">03</div>
+        <h2>פיתוח אתרים</h2>
+        <p>בניית דפי נחיתה ואתרים קלים לעסקים קטנים: הקמה, עיצוב והעלאה לאוויר לפי אפיון הלקוח.</p>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h3>הזמנות ופניות</h3>
+      <p>לקבלת הצעת מחיר או להזמנת עבודה — כתבו לי ואחזור אליכם בהקדם.</p>
+      <a class="btn" href="mailto:slipup@slipup.io?subject=הזמנת עבודה">שליחת פנייה</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot-flex">
+      <div>© סלים דוד מוסלי · אילת, ישראל</div>
+      <div class="en">Selim David Musali — 3D printing · product design · web development — Eilat, IL</div>
+    </div>
+  </footer>
+</body>
+</html>
+
